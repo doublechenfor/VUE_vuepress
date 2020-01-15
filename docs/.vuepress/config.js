@@ -1,13 +1,13 @@
 module.exports = {
-    title: "chenshuang 的vuepress",
-    description: "chenshuang vuepress",
+    title: "陈双的自定义组件库",
+    description: "陈双的自定义组件库",
     port: 9999,
     themeConfig: {
         search:true,  // 默认情况下为true
         lastUpdated:true,  //最后一次git提交的时间 ,默认false
+        repo:'https://github.com/doublechenfor/VUE_vuepress',
         nav: [
             {text:'Home',link:'/'},
-            {text:'github',link:'https://github.com/doublechenfor'},
             {text:'代码风格',link:'https://github.com/doublechenfor'}
             ],
         sidebar:  [
@@ -20,10 +20,9 @@ module.exports = {
                 collapsable: true, // 可选的, 默认值是 true,
                 sidebarDepth: 1,    // 可选的, 默认值是 1
                 children: [
-                  ['/guide/test','button'],
-                  ['/guide/test','icon'],
-                  ['/guide/test','images'],
-                  ['/guide/test','canvas']
+                  ['/views/button','button'],
+                  ['/views/icon','icon'],
+                  ['/views/images','images'],               
                 ]
               },          
         ]
