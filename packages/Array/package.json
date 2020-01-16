@@ -1,0 +1,29 @@
+{
+  "name": "array",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "chenshuang4 <chenshuang4@vipkid.com.cn>",
+  "homepage": "https://github.com/doublechenfor/VUE_vuepress#readme",
+  "license": "ISC",
+  "main": "lib/Array.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doublechenfor/VUE_vuepress.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/doublechenfor/VUE_vuepress/issues"
+  },
+  "dependencies": {
+    "string": "^0.0.0"
+  }
+}

@@ -1,17 +1,25 @@
 {
     "name": "VUE_vuepress",
     "version": "1.0.0",
-    "main": "index.js",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
     "repository": "https://github.com/doublechenfor/VUE_vuepress.git",
     "author": "doublechenfor <32125021+doublechenfor@users.noreply.github.com>",
     "license": "MIT",
     "scripts": {
         "docs:dev": "vuepress dev docs",
-        "docs:build": "vuepress build docs"
+        "docs:build": "vuepress build docs",
+        "bootstrap": "lerna bootstrap",
+        "clear": "rm -rf ./node_modules"
     },
     "dependencies": {
         "element-ui": "^2.13.0",
         "highlight.js": "^9.17.1",
         "vue-highlight.js": "^3.1.0"
+    },
+    "devDependencies": {
+        "lerna": "^3.20.2"
     }
 }
