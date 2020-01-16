@@ -1,9 +1,10 @@
 {
-    "name": "VUE_vuepress",
-    "version": "1.0.0",
-    "private": true,
+    "name": "cs99-sui",
+    "version": "0.0.0",
+    "private": false,
     "workspaces": [
-        "packages/*"
+        "packages/*",
+        "packages/@cssUI/*"
     ],
     "repository": "https://github.com/doublechenfor/VUE_vuepress.git",
     "author": "doublechenfor <32125021+doublechenfor@users.noreply.github.com>",
@@ -11,8 +12,13 @@
     "scripts": {
         "docs:dev": "vuepress dev docs",
         "docs:build": "vuepress build docs",
-        "bootstrap": "lerna bootstrap",
-        "clear": "rm -rf ./node_modules"
+        "bootstrap": "lerna bootstrap -hoist",
+        "clear": "rm -rf ./node_modules",
+        "list": "lerna list",
+        "publish": "lerna publish"
+    },
+    "publishConfig": {
+        "access": "public"
     },
     "dependencies": {
         "element-ui": "^2.13.0",

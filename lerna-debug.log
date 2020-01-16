@@ -1,0 +1,22 @@
+0 silly argv { _: [ 'version' ], lernaVersion: '3.20.2', '$0': 'lerna' }
+1 notice cli v3.20.2
+2 verbose rootPath /Users/chenshuang/work/github_something/VUE_vuepress
+3 info current version 0.0.0
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly currentBranch
+7 verbose currentBranch master
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 error Error: Command failed: git remote update
+10 error fatal: unable to access 'https://github.com/doublechenfor/VUE_vuepress.git/': Could not resolve host: github.com
+10 error error: Could not fetch origin
+10 error
+10 error Fetching origin
+10 error
+10 error     at makeError (/Users/chenshuang/work/github_something/VUE_vuepress/node_modules/execa/index.js:174:9)
+10 error     at Function.module.exports.sync (/Users/chenshuang/work/github_something/VUE_vuepress/node_modules/execa/index.js:338:15)
+10 error     at Object.execSync (/Users/chenshuang/work/github_something/VUE_vuepress/node_modules/@lerna/child-process/index.js:26:16)
+10 error     at updateRemote (/Users/chenshuang/work/github_something/VUE_vuepress/node_modules/@lerna/version/lib/is-behind-upstream.js:26:16)
+10 error     at isBehindUpstream (/Users/chenshuang/work/github_something/VUE_vuepress/node_modules/@lerna/version/lib/is-behind-upstream.js:11:3)
+10 error     at VersionCommand.initialize (/Users/chenshuang/work/github_something/VUE_vuepress/node_modules/@lerna/version/index.js:150:9)

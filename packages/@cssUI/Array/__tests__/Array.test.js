@@ -1,6 +1,6 @@
 'use strict';
 
-const array = require('..');
+const array = require('../../Array');
 
 describe('Array', () => {
     it('needs tests');
